@@ -1,6 +1,9 @@
 # Razer-Blade-15-Base-2021-Hackintosh
 Configuration for getting macOS Big Sur to run on a Razer Blade 15 2021 using OpenCore
 
+### Note
+Note that the SSD drive that came with the Razer didn't work for me. Even with the correct EFI and config.plist my Big Sur installer kept freezin halfway through the install proess. It was only after trying a different drive (Samsung 970 EVO) that I was able to complete the installation.
+
 ## What's working
 - WiFi
 - Battery
@@ -14,7 +17,7 @@ Configuration for getting macOS Big Sur to run on a Razer Blade 15 2021 using Op
 ## What's mostly working
 - Bluetooth: Works with bluetooth headset, cannot connect to a Logi MX Keyboard
 
-### What's not working
+## What's not working
 - Thunderbolt port for display
 - HDMI
 - AirDrop
