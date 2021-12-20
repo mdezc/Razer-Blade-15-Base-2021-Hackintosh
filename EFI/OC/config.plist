@@ -1117,7 +1117,7 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
@@ -1219,7 +1219,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1  igfxrpsc=1 -igfxblr -wegnoegpu alctsel=1</string>
+				<string>debug=0x100 keepsyms=1 swd_panic=1 igfxrpsc=1 -igfxblr -wegnoegpu alctsel=1</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
